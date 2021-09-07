@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0iyQ/uRM55fOvKXtbJzSHUgszI22Tq/8jerP+7wf0W3PZlrBEft6jQ/QXva2nfgsLFZYm215zMscmQFTTfd2Fw==",
+  "dgSpecHash": "zfSJl/ls9eyFFNoYjBnKQg5IrlCVns2ihzQIpFKvsfK64F0t74iiADGR4mB//4C2AZ/rIkoyAV9aWLE6awsV/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\murat\\OneDrive\\Masaüstü\\NLayerProjeWebApi\\NLayerProject.Core\\NLayerProject.Core.csproj",
+  "projectFilePath": "C:\\Users\\murat\\OneDrive\\Masaüstü\\AspNet-Core-Web-API\\NLayerProject.Core\\NLayerProject.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

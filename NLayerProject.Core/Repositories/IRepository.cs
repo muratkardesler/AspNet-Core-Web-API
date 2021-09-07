@@ -13,7 +13,7 @@ namespace NLayerProject.Core.Repositories
 
         Task<IEnumerable<TEntity>> GetAllAsync();
 
-        Task<IEnumerable<TEntity>> Find(Expression<Func<TEntity, bool>> predicate);
+        IEnumerable<TEntity> Where(Expression<Func<TEntity, bool>> predicate);
 
         Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity,bool>> predicate);
 
@@ -23,7 +23,7 @@ namespace NLayerProject.Core.Repositories
 
         void Remove(TEntity entity);
 
-        void RemoveRange(IEnumerable<TEntity> entity);
+        void RemoveRange(IEnumerable<TEntity> entities);
 
         TEntity update(TEntity entity);
         

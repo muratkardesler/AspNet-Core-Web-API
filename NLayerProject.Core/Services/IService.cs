@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NLayerProject.Core.Services
 {
-    interface IService<TEntity>where TEntity:class
+   public interface IService<TEntity>where TEntity:class
     {
 
         // ileride sql server yerine oracla kullandığımız zaman services katmanımız sabit kalır. tek değiştirmemiz gereken repository sınıflarımız o yüzden services katmanımızı oluşturduk. yoksa Irepository üzerinden de gidebilirdik..
@@ -16,17 +16,17 @@ namespace NLayerProject.Core.Services
 
         Task<IEnumerable<TEntity>> GetAllAsync();
 
-        Task<IEnumerable<TEntity>> Find(Expression<Func<TEntity, bool>> predicate);
+        Task<IEnumerable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate);
 
         Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);
 
-        Task AddAsync(TEntity entity);
+        Task<TEntity> AddAsync(TEntity entity);
 
-        Task AddRangeAsync(IEnumerable<TEntity> entities);
+        Task<IEnumerable<TEntity>> AddRangeAsync(IEnumerable<TEntity> entities);
 
         void Remove(TEntity entity);
 
-        void RemoveRange(IEnumerable<TEntity> entity);
+        void RemoveRange(IEnumerable<TEntity> entities);
 
         TEntity update(TEntity entity);
     }

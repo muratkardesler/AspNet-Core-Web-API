@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NLayerProject.Core.Services
 {
-    interface ICategoryServices:IService<Category>
+  public interface ICategoryServices:IService<Category>
     {
         Task<Category> GetWithProductByIdAsync(int categoryId);
 

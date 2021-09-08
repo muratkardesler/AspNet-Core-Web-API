@@ -2,7 +2,6 @@ C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\bin\De
 C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\bin\Debug\net5.0\NLayerProject.Core.dll
 C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\bin\Debug\net5.0\ref\NLayerProject.Core.dll
 C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\bin\Debug\net5.0\NLayerProject.Core.pdb
-C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.csproj.AssemblyReference.cache
 C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.AssemblyInfoInputs.cache
 C:\Users\murat\OneDrive\Masaüstü\AspNet-Core-Web-API\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.AssemblyInfo.cs

@@ -13,7 +13,7 @@ namespace NLayerProject.Data.Repositories
     {
         private AppDbContext appDbContext { get => _context as AppDbContext; }
 
-        public ProductRepository(AppDbContext context):base(context)
+        public ProductRepository(DbContext context):base(context)
         {
 
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NLayerProject.Core.Services
 {
- public interface IProductService:IService<Product>
+   interface IProductService:IService<Product>
     {
         //örneğin kontrol ettik. burada veri tabanına gitmek yerine veri tabanı dışında yazacağım kodları buraya yazarım
         Task<Product> GetWithCategoryByIdAsync(int productId);
